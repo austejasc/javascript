@@ -1,0 +1,76 @@
+
+
+.row > .col-md-3{
+    /* border: 2px solid black; */
+    margin-top: 20px;
+}
+
+.col-md-3 > *{
+    display: inline-block;
+    padding: 10px;
+}
+
+.col-md-3{
+    border-radius: 15px;
+}
+
+.col-md-3:hover{
+    border: 2px solid rgb(201, 230, 220);
+}
+
+.info{
+    font-family: 'Quicksand', sans-serif;
+    color: gray;
+    font-size: 11px;
+    display: inline-block;
+}
+
+.title{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    max-height: 200px;
+    max-width: 250px;
+    font-weight: 700;
+    display:inline-block;
+    margin-top: 20px;
+}
+
+.info > a{
+    text-decoration: none;
+    color: rgb(0, 195, 130);
+}
+
+.col-md-3 > {
+    /* border: 2px solid black; */
+    padding: 5px;
+}
+
+.itemPhoto{
+    max-width:235px;
+    max-height:195px;
+    margin-left: 30px;
+    vertical-align: bottom;
+    box-sizing: border-box;
+}
+
+.photos {
+    max-height: 100px;
+}
+
+.bottom{
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.bottom > p{
+    padding-right: 20px;
+}
+
+.price{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    /* background-color: aquamarine; */
+}
